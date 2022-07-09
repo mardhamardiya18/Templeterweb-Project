@@ -49,6 +49,10 @@ body{
     color: var(--white-color);
 }
 
+.section-margin{
+    margin-top: 120px;
+}
+
 /* NAVBAR STYLE */
 .navbar .navbar-brand{
     font-family: var(--logo-font);
@@ -84,6 +88,17 @@ body{
     font-size: 18px;
 }
 
+/* Category Section */
+.category .heading{
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--first-color);
+}
+.category .row-btn a{
+    display: inline-block;
+    margin: 0 10px;
+}
+
 
 
 /* Mobile Responsive */
@@ -106,6 +121,6 @@ body{
     }
 
     .hero input::placeholder{
-        font-size: 13px;
+        font-size: 12px;
     }
 }
