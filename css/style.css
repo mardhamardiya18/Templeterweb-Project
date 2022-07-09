@@ -105,6 +105,10 @@ body{
     color: var(--white-color);
 }
 
+.populer .card{
+    border: none;
+}
+
 .img-box .bg-shadow{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 55.21%, #0F0E16 100%);
     width: 100%;
@@ -137,6 +141,48 @@ body{
     background-color: var(--first-color);
 }
 
+/* Trending Product */
+.trending{
+    margin-top: 120px;
+    padding: 70px 0;
+    background: rgba(211, 68, 112, 0.51);
+}
+
+.trending .heading{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--white-color);
+}
+
+.trending .btn-trending{
+    background-color: var(--first-color);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.trending .img-box{
+    border-radius: 20px !important;
+    overflow: hidden;
+}
+
+.trending .card {
+    border: none;
+}
+
+.trending .img-box .sold{
+    position: absolute;
+    bottom: 2%;
+    right: 8%;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+
+}
+
 
 
 /* Mobile Responsive */
@@ -147,7 +193,7 @@ body{
 
     .hero{
         margin-top: 40px;
-        padding: 0 10px;
+        padding: 0 8px;
     }
 
     .hero .container{
@@ -181,5 +227,15 @@ body{
     }
     .populer .owner{
         font-size: 12px;
+    }
+
+    /* Trending Product */
+
+    .trending .card{
+        padding: 0 25px;
+    }
+
+    .trending .img-box .sold{
+        font-size: 14px;
     }
 }
