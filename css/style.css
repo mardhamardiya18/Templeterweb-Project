@@ -169,4 +169,17 @@ body{
     .category .heading, .populer .heading{
         font-size: 25px;
     }
+
+    .category .row-btn a{
+        font-size: 14px;
+    }
+
+    /* Popular Product */
+    .populer .card{
+        padding: 0 25px;
+        margin-top: 20px;
+    }
+    .populer .owner{
+        font-size: 12px;
+    }
 }
