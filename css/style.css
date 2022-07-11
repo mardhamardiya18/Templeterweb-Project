@@ -89,7 +89,7 @@ body{
 }
 
 /* Category Section */
-.category .heading, .populer .heading{
+.category .heading, .populer .heading, .pilihan .heading{
     font-size: 30px;
     font-weight: 800;
     color: var(--first-color);
@@ -148,6 +148,12 @@ body{
     background: rgba(211, 68, 112, 0.51);
 }
 
+.trending .img-box .bg-shadow{
+    background: linear-gradient(180deg, #d3446f00 55.21%, #D34470 100%);
+    width: 100%;
+    height: 100%;
+}
+
 .trending .heading{
     font-weight: 700;
     font-size: 30px;
@@ -182,6 +188,85 @@ body{
     font-weight: 700;
 
 }
+
+/* Desain Pilihan */
+.pilihan{
+    margin-top: 120px;
+    color: #FFFFFE;
+}
+
+.pilihan .card{
+    border-radius: 20px;
+    border: none;
+}
+
+.pilihan .col-main .img-box img{
+    width: 640px;
+}
+
+.pilihan .col-main .categori-label{
+    font-size: 20px;
+}
+
+/* Subscription */
+.subscribe{
+    margin-top: 120px;
+}
+
+.subscribe .container{
+    background-color: var(--first-color);
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.subscribe h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--white-color);
+}
+.subscribe p{
+    font-size: 18px;
+    color: var(--white-color);
+}
+
+/* Footer */
+footer{
+    margin-top: 120px;
+    color: var(--white-color);
+}
+
+footer .brand{
+    font-family: var(--logo-font);
+    font-weight: 400;
+    color: var(--first-color);
+    font-size: 40px;
+}
+
+footer p{
+    font-size: 20px;
+}
+
+footer .sosmed i{
+    font-size: 40px;
+    color: var(--second-color);
+}
+
+footer ul li{
+    margin: 15px 0;
+}
+
+footer h3{
+    font-size: 25;
+    font-weight: 700;
+    color: #F08E36;
+}
+
+footer ul a{
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+
 
 
 
@@ -236,6 +321,29 @@ body{
     }
 
     .trending .img-box .sold{
+        font-size: 14px;
+    }
+
+    /* Produk pilihan */
+    .pilihan .col-main .categori-label{
+        font-size: 14px;
+    }
+
+    .subscribe .container{
+        padding: 40px;
+    }
+
+    .subscribe h3{
+        font-size: 25px;
+        font-weight: 700;
+        color: var(--white-color);
+    }
+
+    .subscribe p{
+        font-size: 16px ;
+    }
+
+    footer .copy p{
         font-size: 14px;
     }
 }
