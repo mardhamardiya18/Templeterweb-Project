@@ -123,19 +123,19 @@ body{
     left: 5%;
     font-size: 14px;
 }
-.populer .detail .name{
+.populer .detail .name, .product-list .detail .name{
     font-size: 22px;
     font-weight: 600;
     color: var(--white-color);
 }
 
-.populer .detail .price{
+.populer .detail .price, .product-list .detail .price{
     font-size: 20px;
     font-weight: 700;
     color: var(--first-color);
 }
 
-.populer .detail .free{
+.populer .detail .free, .product-list .detail .free{
     font-size: 18px;
     font-weight: 600;
     background-color: var(--first-color);
@@ -266,6 +266,40 @@ footer ul a{
     color: var(--white-color);
 }
 
+/* Produk Style */
+.search{
+    margin-top: 70px;
+    padding: 70px 0px;
+    border-radius: 20px;
+    background-color: var(--first-color);
+}
+
+.search .heading{
+    font-size: 25px;
+    color: var(--white-color);
+    font-weight: 700;
+}
+
+.form-search{
+    position: absolute;
+    width: 70%;
+    left: 50%;
+    bottom: -40px;
+    transform: translateX(-50%);
+}
+
+.product-category{
+    margin-top: 70px;
+}
+
+.product-category a{
+    display: inline-block;
+    margin: 10px;
+}
+
+.product-list{
+    margin-top: 100px;
+}
 
 
 
@@ -345,5 +379,31 @@ footer ul a{
 
     footer .copy p{
         font-size: 14px;
+    }
+
+    /* Product Page */
+    .search{
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+    .form-search{
+        width: 80%;
+    }
+
+    .form-search input::placeholder{
+        font-size: 14px;
+    }
+
+    .product-category a{
+        font-size: 14px;
+    }
+
+    .product-list{
+        margin-top: 60px;
+    }
+
+    .product-list .card{
+        padding: 0 30px;
+        margin-top: 10px;
     }
 }
