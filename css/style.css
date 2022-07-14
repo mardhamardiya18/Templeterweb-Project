@@ -303,6 +303,41 @@ footer ul a{
 }
 
 
+/* PRODUCT DETAIL CSS */
+.detail .rate .ico i{
+    color: rgb(187, 214, 32);
+    font-size: 30px;
+}
+
+.detail .name-product{
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--first-color);
+}
+
+.detail .owner{
+    font-size: 20px;
+}
+
+.detail .price{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail .price small{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.detail .view i, .detail .review i{
+    font-size: 28px;
+}
+
+.detail hr{
+    color: #FFFFFE;
+    height: 2px !important;
+}
+
 
 
 /* Mobile Responsive */
@@ -407,5 +442,38 @@ footer ul a{
     .product-list .card{
         padding: 0 30px;
         margin-top: 10px;
+    }
+
+
+    /* Produk Detail */
+    .detail .rate .ico i{
+        font-size: 20px;
+    }
+    
+    .detail .name-product{
+        font-size: 25px;
+    }
+    
+    .detail .owner{
+        font-size: 16px;
+    }
+    
+    .detail .price{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .detail .price small{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .detail .view i, .detail .review i{
+        font-size: 20px;
+    }
+    
+    .detail hr{
+        color: #FFFFFE;
+        height: 2px !important;
     }
 }
