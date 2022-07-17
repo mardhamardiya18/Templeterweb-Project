@@ -124,19 +124,19 @@ body{
     left: 5%;
     font-size: 14px;
 }
-.populer .detail .name, .product-list .detail .name{
+.populer .detail .name, .product-list .detail .name, .row-relate .detail .name{
     font-size: 22px;
     font-weight: 600;
     color: var(--white-color);
 }
 
-.populer .detail .price, .product-list .detail .price{
+.populer .detail .price, .product-list .detail .price, .row-relate .detail .price{
     font-size: 20px;
     font-weight: 700;
-    color: var(--first-color);
+    color: var(--first-color) !important;
 }
 
-.populer .detail .free, .product-list .detail .free{
+.populer .detail .free, .product-list .detail .free, .row-relate .detail .free{
     font-size: 18px;
     font-weight: 600;
     background-color: var(--first-color);
@@ -304,6 +304,10 @@ footer ul a{
 
 
 /* PRODUCT DETAIL CSS */
+.detail p{
+    color: #e6e6e0 !important;
+}
+
 .detail .rate .ico i{
     color: rgb(187, 214, 32);
     font-size: 30px;
@@ -336,6 +340,41 @@ footer ul a{
 .detail hr{
     color: #FFFFFE;
     height: 2px !important;
+}
+
+.detail .heading{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.detail .row-benefit .card{
+    background-color: var(--first-color);
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding: 30px 0;
+    border: none;
+    margin-top: 20px;
+}
+
+.detail .row-benefit .card img{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.detail .row-relate .relate{
+    margin: 50px 0;
+}
+
+.detail .row-review i{
+    font-size: 20px;
+    color: rgb(177, 196, 0);
+}
+
+.detail .row-review .username{
+    color: var(--first-color) !important;
+    font-weight: 700;
 }
 
 
@@ -475,5 +514,23 @@ footer ul a{
     .detail hr{
         color: #FFFFFE;
         height: 2px !important;
+    }
+
+    .detail .row-benefit .card{
+        font-size: 16px;
+        padding: 30px;
+        margin-top: 20px;
+    }
+    
+    .detail .row-benefit .card img{
+        width: 40px;
+    }
+
+    .detail .row-relate .card {
+        padding: 0 20px;
+    }
+
+    .detail .row-review .date{
+        font-size: 12px;
     }
 }
