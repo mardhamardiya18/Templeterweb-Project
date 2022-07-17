@@ -4,7 +4,7 @@
     --first-color : #F08E36;
     --second-color : #D34470; 
     --black-color : #0F0E16;
-    --white-color : #FFFFFE;
+    --white-color : #e0e0db;
 
     /* Fonts */
     --main-font : 'Nunito', sans-serif;
@@ -65,6 +65,18 @@ body{
 .navbar .nav-link{
     font-weight: 600;
     margin: 0 10px;
+}
+
+.navbar .auth-btn i{
+    color: var(--first-color);
+    font-size: 33px;
+}
+
+.navbar .auth-btn .wishlist-count, .navbar .auth-btn .cart-count{
+    top: -20%;
+    right: -20%;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 /* Hero Section */
@@ -377,6 +389,73 @@ footer ul a{
     font-weight: 700;
 }
 
+/* Cart Style */
+.cart{
+    margin-top: 60px;
+}
+
+.cart .heading{
+    font-size: 30px;
+    color: var(--first-color);
+    font-weight: 700;
+}
+
+.cart table tr{
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.cart table td{
+    color: var(--white-color) !important;
+}
+
+.cart table i{
+    color: #D34470;
+    font-size: 30px;
+}
+
+.cart .additional{
+    margin-top: 70px;
+}
+
+.cart .additional label{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.cart .additional input{
+    width: 20px;
+    height: 20px;
+}
+
+.cart .additional .add-price{
+    color: var(--first-color);
+    margin-top: 10px !important;
+}
+
+.cart .user-info p{
+    font-size: 20px;
+}
+
+
+.cart .payment-info p{
+    font-size: 20px;
+    color: #F08E36;
+    font-weight: 700;
+}
+
+.cart .protect{
+    background-color: #F08E36;
+    border-radius: 10px;
+    padding: 20px 10px !important;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cart .protect i{
+    font-size: 50px;
+}
+
 
 
 /* Mobile Responsive */
@@ -532,5 +611,9 @@ footer ul a{
 
     .detail .row-review .date{
         font-size: 12px;
+    }
+
+    .cart table td{
+       font-size: 14px;
     }
 }
